@@ -1,0 +1,18 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 350px;
+  font-family: 'Roboto', 'Verdana', 'Tahoma', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  color: gray;
+
+  &__image {
+    background: url(../../images/minesweeper-sprites.png) no-repeat center/cover;
+    width: 50px;
+    height: 50px;
+  }
+}
